@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+
+//Price = parseInt(prompt("Selcet Price a) 200 b) 300"));
+//tax = Price * 0.17;
+//discount = Price * 0.03;
+//netPrice = Price + tax - discount;
+
+//document.write("tax=", tax  ,"<br>");
+//document.write("discount=" , discount ,"<br>");
+//document.write("net price=" , netPrice ,"<br>");
+
+
+//name= "BMJ";
+//pass= 123;
+
+
+
+
+
+//Practice of typrof
+
+//a = parseInt(prompt("write somthing"));
+
+//document.write(a+4);
+
+//Var = a;
+//a = 10; 
+
+
+
+//Let = a;
+//a=10
+
+//email= prompt("Enter email")
+//pass=prompt("Enter password");
+
+//email == "bilal@gmail.com" && pass== "bilal123"||email =="ali@gmail.com" && pass== "ali1234"|| email == "asad@gmail.com" && pass == "asad222" ? document.write("Login successfully") : document.write("Invalid email and password");
+
+//Price = parseFloat(prompt("Select price a)5000 b)7000 c)1000"));
+
+//tax = Price* 0.14;
+//discount = Price * 0.04;
+
+//netPrice = Price + tax - discount;
+
+//document.write("Total amount = " , netPrice);
+
+
+//prompt("Enter your name");
+//prompt("Enter password");
+
+//name= "Farheen"
+//pass = 123;
+
+//name == "Farheen" &&  pass == 12
+//document.write("Login successful");
+
+let formula = prompt("Select formula 1)Vs/t 2)F=ma 3)W=mg");
+
+if(formula==1){
+   num= prompt("What will you find in this formula 1)V 2)d 3)t");
+    
+    if(num==1){
+        let distance;
+        let Velocity
+        let time;
+        distance= prompt("Enter value of distance");
+        time= prompt("Enter time time");   
+        document.write("Velocity =" , distance / time)     
+    }
+   
+    else if(num==2){
+      
+        Velocity=  prompt("Enter value of velocity");
+        time=  prompt("Enter bakue of time");
+        document.write("distance =" , Velocity*time );
+    }
+    else if(num== 3){
+       
+      distance=  prompt("Enter value of distance");
+      Velocity =  prompt("Enter value of velocity");
+        document.write("time =" ,  distance / Velocity );
+    }
+ 
+}
+if(formula==2){
+   num= prompt("What will you find in this formula 1)F 2)m 3)a");
+    
+    if(num==1){
+        let Force;
+        let mass
+        let acc
+        mass= prompt("Enter value of mass");
+        acc= prompt("Enter time acc");   
+        document.write("Force =" ,mass* acc)     
+    }
+   
+    else if(num==2){
+      
+        acc =  prompt("Enter value of force");
+        force=  prompt("Enter bakue of acc");
+        document.write("mass =" , force / acc );
+    }
+    else if(num== 3){
+       
+     force =  prompt("Enter value of force ");
+      mass =  prompt("Enter value of ");
+        document.write("acc =" , force  / mass );
+    }
+ 
+}
+if(formula==3){
+    num =  prompt("What will you find 1)W 2)m 3)g");
+}
+if(num==1){
+    let weight;
+    let mass;
+    let gravity;
+    mass=  prompt("enter value of m");
+    gravity  = prompt("enter value of g");
+    document.write("weight=" , mass* gravity);
+}
+
+else if(num==2){
+    weight =  prompt("enter value of w");
+    gravity= prompt("enter value of g")
+    document.write("mass=" , weight / gravity);
+
+}
+else if(num==3){
+    weight=  prompt("enter value of w");
+    mass = prompt("enter value of m")
+    document.write("gravity=" , weight / mass);
+
+}
+
+else{
+    document.write("Invalid formula");
+}
+
+ </script>
+</body>
+</html>
